@@ -20,13 +20,13 @@ body {
     margin-left: 07%;
 }
 
-.company-logo2{
+.company-logo2 {
     margin-top: 18px;
 }
 
 .section1 {
     padding: 100px 0;
-    background-color: #2a2a2a;
+    background: linear-gradient(170deg, #272727, #575757);
 }
 
 .breaking-news {
@@ -43,13 +43,13 @@ body {
 }
 
 .section-title {
-    font-size: 73px;
-    font-weight: 900;
-    line-height: 1.1;
+    font-size: 90px;
+    line-height: 0.9;
     margin-bottom: 30px;
     text-transform: uppercase;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-weight: bolder; */
 }
 
 .section-sub-title {
@@ -60,10 +60,8 @@ body {
 }
 
 .see-in-action {
-    color: #ffcc00;
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 20px;
+    height: 100px;
+    margin-left: 50px;
 }
 
 .video-box {
@@ -76,6 +74,7 @@ body {
 
 .company-section {
     padding: 100px 0;
+
 }
 
 .green-box {
@@ -104,7 +103,7 @@ body {
     text-align: center;
 }
 
-.loading{
+.loading {
     text-align: center;
     width: 40%;
     margin: auto;
@@ -141,42 +140,55 @@ body {
     0% {
         transform: translateX(0);
     }
+
     100% {
         transform: translateX(-50%);
     }
 }
 
 .section-2 {
-    background: #f2f2f2;
+    background: white;
     padding: 50px 0;
 }
 
 .section-2-title {
-    font-size: 70px;
+    font-size: 90px;
     font-weight: 900;
     color: #1c1c1c;
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 0.9;
 }
 
 
-.star-rating{
+.star-rating {
     text-align: center;
     margin-top: -10px;
 }
 
-.testimonial-section {
-    background: #f2f2f2;
+.review-section {
+    background: white;
     padding: 80px 5%;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 60px;
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
+    margin-top: -20px;
+    align-items: center;
 }
 
+.review-section1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    align-items: center;
+}
 
-.testimonial-card {
+.review-section2 {
+    display: flex;
+    justify-content: center;
+    margin: 0px 200px;
+    align-items: center;
+}
+
+.review-card {
     max-width: 400px;
     margin: auto;
     text-align: center;
@@ -197,15 +209,18 @@ body {
 .quote {
     margin: 25px 0;
     font-size: 16px;
-    color: #4e4d4d;
+    color: #454444;
     line-height: 1.6;
-    font-weight: lighter;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
 }
 
 .name {
     font-weight: 900;
-    color: #9ee21a;
+    color: #5f8d04;
     font-size: 20px;
+    font-style: italic;
 }
 
 .linkedin {
@@ -221,9 +236,11 @@ body {
     color: #666;
     font-size: 14px;
     margin-top: 5px;
+    font-weight: bold;
+    margin-bottom: 50px;
 }
 
-.explode-img{
+.explode-img {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -231,20 +248,21 @@ body {
     margin-bottom: 50px;
 }
 
-.partner-company-logo{
+.partner-company-logo {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 50px;
-    margin: 40px 50px;
+    gap: 100px;
+    margin: 0px 50px;
+
 }
 
-.highlight-wrapper {
-    background: #f2f2f2;
+.sellergeni-box {
+    background: white;
     padding: 120px 0;
 }
 
-.highlight-container {
+.sellergeni-container {
     background: #000;
     width: 60%;
     margin: auto;
@@ -253,14 +271,14 @@ body {
 }
 
 
-.highlight-card {
+.sellergeni-card {
     background: #eaeaea;
     padding: 10px;
     border-radius: 20px;
     text-align: center;
 }
 
-.highlight-profile {
+.sellergeni-profile {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -269,46 +287,51 @@ body {
 }
 
 
-.highlight-profile h3 {
+.sellergeni-profile h3 {
     margin: 0;
     font-weight: 800;
     color: #000;
 }
 
-.highlight-profile p {
+.sellergeni-profile p {
     margin: 5px 0 0;
     color: #333;
 }
 
-.highlight-quote {
+.sellergeni-quote {
     color: #9ee21a;
     font-weight: 900;
     font-size: 30px;
     line-height: 1.3;
 }
 
-.highlight-cta {
+.ethiraj-cta {
     background: #9ee21a;
     margin-top: 40px;
-    padding: 40px;
+    padding: 10px;
     border-radius: 20px;
     text-align: center;
+    color: white;
+    width: 80%;
+    font-size: 30px;
+    font-weight: bolder;
 }
 
-.highlight-cta h2 {
+.ethiraj-cta br {
     font-weight: 900;
     color: white;
     margin-bottom: 10px;
     font-size: 28px;
 }
 
-.highlight-cta p {
+.ethiraj-cta span {
     color: #1e1e1e;
     font-weight: 600;
     margin: 0;
+    font-size: 19px;
 }
 
-.humanize-method {
+.ethiraj-method {
     background: #f2f2f2;
     display: flex;
     justify-content: center;
@@ -316,67 +339,45 @@ body {
     margin: auto;
 }
 
-.humanize-card {
+.ethiraj-card {
     position: relative;
     background: #000;
-    width: 75%;
+    width: 55%;
     border-radius: 20px;
     padding: 30px 20px;
     overflow: hidden;
     text-align: center;
     color: white;
+    margin: auto;
 }
 
-.human-image {
-    width: 220px;
+.ethiraj-image {
+    width: 800px;
     border-radius: 50%;
-    margin-bottom: 40px;
-    position: relative;
-    z-index: 2;
 }
 
+.ethiraj-content {
+    margin-top: -400px;
+}
 
-.human-content h1 {
+.ethiraj-content h1 {
     font-size: 35px;
     font-weight: 900;
     line-height: 1.2;
-    margin-bottom: 25px;
 }
 
-.human-content p {
+.ethiraj-content p {
     max-width: 600px;
     margin: auto;
     color: #ccc;
     font-size: 18px;
     line-height: 1.6;
-    margin-bottom: 40px;
 }
 
-
-.human-cta {
-    background: #9ee21a;
-    border: none;
-    padding: 25px 40px;
-    font-size: 20px;
-    font-weight: 900;
-    color: white;
-    border-radius: 15px;
-    cursor: pointer;
-    transition: 0.3s ease;
-    width: 100%;
-}
-
-.human-cta span {
-    display: block;
-    font-size: 14px;
-    font-weight: 600;
-    color: #1e1e1e;
-    margin-top: 5px;
-}
 
 .booking-section {
-    background: #f2f2f2;
-    padding: 120px 0;
+    background: white;
+    padding: 30px 0;
 }
 
 .booking-container {
@@ -385,7 +386,8 @@ body {
     display: flex;
     gap: 50px;
     align-items: flex-start;
-    }
+    align-items: center;
+}
 
 .booking-left {
     flex: 1;
@@ -403,9 +405,10 @@ body {
 .profile-row img {
     width: 80px;
     height: 80px;
-    
+
 }
-.profile-row h4{
+
+.profile-row h4 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 15px;
     margin-top: 20px;
@@ -433,26 +436,21 @@ body {
     color: #333;
 }
 
-/* RIGHT SIDE */
-
 .booking-right {
     flex: 1.2;
 }
 
 .calendar-iframe {
     width: 100%;
-    height: 650px;
-    border-radius: 20px;
+    height: 550px;
     background: white;
-    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
 }
-
-/* FAQ SECTION */
 
 .faq-section {
     background: #3b3b3b;
     color: white;
-    padding: 120px 0px;
+    padding: 50px 0px;
 }
 
 .faq-container {
@@ -462,15 +460,18 @@ body {
 
 .faq-title {
     font-size: 80px;
-    font-weight: 900;
+    font-weight:bold;
     text-transform: uppercase;
-    /* margin-bottom: 80px; */
+    margin-bottom: 80px;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .faq-item {
-    border-top: 1px solid rgba(255,255,255,0.2);
-    padding: 30px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px 0;
+    width: 75%;
+    margin: auto;
 }
 
 .faq-question {
@@ -478,7 +479,7 @@ body {
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-     text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 .faq-question h3 {
@@ -496,7 +497,6 @@ body {
     overflow: hidden;
     transition: all 0.4s ease;
     color: #ddd;
-    /* margin-top: 20px; */
 }
 
 .faq-item.active .faq-answer {
@@ -507,11 +507,10 @@ body {
     content: "×";
 }
 
-.footer{
+.footer {
     background: #333333;
     color: #ccc;
     text-align: center;
-    padding: 20px 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 20px 40px;
+    padding: 20px 100px;
 }
