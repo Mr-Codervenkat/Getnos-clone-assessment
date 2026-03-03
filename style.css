@@ -514,3 +514,148 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 20px 100px;
 }
+
+@media (max-width: 768px) {
+
+    /* HEADER */
+    .headerContainer {
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .company-logo1,
+    .company-logo2 {
+        margin: 10px 0;
+    }
+
+    /* SECTION 1 */
+    .section-title {
+        font-size: 42px;
+        line-height: 1.1;
+        padding: 0 15px;
+    }
+
+    .section-sub-title {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    .breaking-news {
+        width: 90%;
+        font-size: 12px;
+    }
+
+    /* GREEN BOX */
+    .green-box {
+        width: 90%;
+        padding: 20px;
+    }
+
+    /* LOGO SLIDER */
+    .logo-track {
+        gap: 30px;
+    }
+
+    .logo-track img {
+        height: 40px;
+    }
+
+    /* SECTION 2 TITLE */
+    .section-2-title {
+        font-size: 42px;
+        padding: 0 15px;
+    }
+
+    /* REVIEW SECTION */
+    .review-section1,
+    .review-section2 {
+        flex-direction: column;
+        margin: 0;
+        gap: 30px;
+    }
+
+    /* PARTNER LOGOS */
+    .partner-company-logo {
+        gap: 30px;
+    }
+
+    /* SELLERGENI BOX */
+    .sellergeni-container {
+        width: 90%;
+        padding: 30px;
+    }
+
+    .sellergeni-quote {
+        font-size: 20px;
+    }
+
+    .ethiraj-cta {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .ethiraj-cta span {
+        font-size: 14px;
+    }
+
+    /* ETHIRAJ METHOD */
+    .ethiraj-method {
+        width: 100%;
+    }
+
+    .ethiraj-card {
+        width: 95%;
+        padding: 20px;
+    }
+
+    .ethiraj-image {
+        width: 250px;
+    }
+
+    .ethiraj-content {
+        margin-top: -50px;
+    }
+
+    .ethiraj-content h1 {
+        font-size: 20px;
+    }
+
+    .ethiraj-content p {
+        font-size: 14px;
+    }
+
+    /* BOOKING SECTION */
+    .booking-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .booking-left {
+        margin-left: 0;
+    }
+
+    .calendar-iframe {
+        height: 450px;
+    }
+
+    /* FAQ */
+    .faq-title {
+        font-size: 36px;
+    }
+
+    .faq-item {
+        width: 90%;
+    }
+
+    .faq-question h3 {
+        font-size: 16px;
+    }
+
+    /* FOOTER */
+    .footer {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+}
